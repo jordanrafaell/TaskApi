@@ -1,0 +1,26 @@
+[Dd]ebug/
+[Rr]elease/
+.vs/
+build/
+bld/
+*.log
+*.user
+*.suo
+*.pdb
+*.ide
+
+
+// Visual Studio Code
+.vscode/
+.history/
+
+
+node_modules/
+dist/
+npm-debug.log*
+.env
+
+
+// src/data/
+
+src/data/

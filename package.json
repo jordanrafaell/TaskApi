@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/lodash": "^4.17.20",
+    "@types/mongoose": "^5.11.96",
+    "@types/prompts": "^2.4.9",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "name": "taskapi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "ts-node  src/app.ts",
+    "deleteUser": "ts-node src/controllers/deleteUsers.ts",
+    "cache": "rimraf node_modules/.cache/ts-node-dev",
+    "listUser": "ts-node src/controllers/listUsers.ts",
+    "deleteJson": "rimraf src/data/users.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
