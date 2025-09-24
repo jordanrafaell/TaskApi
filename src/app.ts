@@ -39,8 +39,8 @@ async function main() {
     // selecionando a coleção do BD
     const collection: Collection = client
       .db(dbName)
-      .collection('userCollection');
-    console.log(`conectado a coleção userCollection`);
+      .collection('suacolletion');
+    console.log(`conectado a coleção suacolletion`);
 
     // inserindo users
     const resultado = await collection.insertMany(users);

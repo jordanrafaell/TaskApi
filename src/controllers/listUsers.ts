@@ -25,11 +25,11 @@ async function listUsers() {
       return;
     }
 
-    const dbName = 'taskApi';
+    const dbName = 'seubanco';
     const db: Db = client.db(dbName);
     console.log(`conectado ao banco de dados ${dbName}`);
 
-    const dbCollectionName = 'userCollection';
+    const dbCollectionName = 'suacolletion';
     const collection: Collection = db.collection(dbCollectionName);
     console.log(`conectado à coleção ${collection.collectionName}`);
 

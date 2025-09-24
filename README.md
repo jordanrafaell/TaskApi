@@ -22,7 +22,7 @@ Uma API REST construída como desafio pessoal para praticar integração com Mon
 
 ## 📁 Funcionalidades
 
-- **Inserção de usuários falsos**: Gera e insere múltiplos usuários na coleção `userCollection`  
+- **Inserção de usuários falsos**: Gera e insere múltiplos usuários na coleção `suacolletion`  
 - **Listagem de usuários**: Exporta todos os usuários para um arquivo `users.json`  
 - **Exclusão de dados**: Remove todos os documentos da coleção  
 - **Scripts personalizados**: Comandos via `npm run` para executar tarefas específicas  

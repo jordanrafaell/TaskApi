@@ -11,8 +11,8 @@ async function deleteUsers() {
     console.log("Conectado ao MongoDB");
 
 
-    const db: Db = client.db("taskApi");
-    const collection: Collection = db.collection("userCollection");
+    const db: Db = client.db("seubanco");
+    const collection: Collection = db.collection('suacolletion');
 
     const collectUsers = await collection.find({}).toArray();
     console.log(`Total de usuários na coleção: ${collectUsers.length}`);
